@@ -67,6 +67,6 @@ if __name__ == "__main__":
 
 ## Project Members
 
-- **Ammar Baroch**
+- **Ammar Broach**
 - **Yeshovardhan**
 - **Vaibhav Arora**
