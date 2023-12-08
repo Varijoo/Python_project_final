@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Billionaires Dataset
+        </title>
+       
+    </head>
+    <body>
+        
+        <h1> Data Page: </h1>  
+        <h4>Take a look at the Dataset! </h4>
+        
+        
+        <table border="1">
+        <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                <th>BirthYear</th>
+                <th>Source</th>
+                <th>Industries</th>
+                <th>Title</th>
+                
+            </tr>
+       </thead>
+ <tbody>
+            {% for C in Celeb_Name %}
+            <tr>
+                <td>{{ C[0] }}</td>
+                <td>{{ C[1]}}</td>
+                <td>{{ C[2]}}</td>
+                <td>{{ C[3]}}</td>
+                <td>{{ C[4]}}</td>
+                <td>{{ C[5]}}</td>
+                <td>{{ C[6]}}</td>
+                
+           
+    </tr>
+   {% endfor %}
+   
+   </tbody>
+    </table>
+
+        
+    </body>
+</html>
+
