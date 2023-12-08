@@ -44,7 +44,7 @@ def data():
 
 if __name__ == "__main__":
     Billionaire_Html.run(debug=True)
-
+```
 
 ## File Structure
 - templates
@@ -61,12 +61,12 @@ if __name__ == "__main__":
 
 ## Additional Information
 
-- The `Health.db` file contains the SQLite database with the imported dataset. You can use a SQLite database viewer to explore the data further.
+- The `Buisness.db` file contains the SQLite database with the imported dataset. You can use a SQLite database viewer to explore the data further.
 
-- The website is currently set to run in debug mode (`app.run(debug=True)` in `Sleep_Health_Application.py`). For production use, consider changing this configuration.
+- The website is currently set to run in debug mode (`app.run(debug=True)` in `Billionaire_Html.py`). For production use, consider changing this configuration.
 
 ## Project Members
 
-- **Harish Kumar Dakshinamoorthy**
-- **Akash Balu**
-- **Ganesh Rajendran**
+- **Ammar Baroch**
+- **Yeshovardhan**
+- **Vaibhav Arora**
